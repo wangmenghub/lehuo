@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2016/6/27 0027.
  */
-angular.module('directive', [])
+angular.module('app', [])
     .directive('harder', function () {
         return {
             restrict: 'E',
@@ -18,7 +18,7 @@ angular.module('directive', [])
             scope: {
                 title: '@'
             },
-            templateUrl: '../directive/nav.html',
+            templateUrl: '../html/nav.html',
             replace: true
         }
     });
